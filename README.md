@@ -7,7 +7,4 @@ The app displays the **current time in 24-hour format with AM/PM** and the curre
 
 - Real-time clock updated every second
 - 24-hour format with AM/PM display
-- Neon green digits with glowing LED effect
 - Responsive font size for all screen sizes
-- Displays current date below the clock
-- Full-screen dark gradient background
