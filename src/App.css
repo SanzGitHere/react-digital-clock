@@ -1,4 +1,3 @@
-/* Reset margins & make background full black */
 html, body {
   margin: 0;
   padding: 0;
@@ -6,20 +5,18 @@ html, body {
   background: radial-gradient(circle, #000000, #0a0a0a, #1a1a1a);
 }
 
-/* Full screen flex container */
 .container {
   height: 100vh;
   display: flex;
-  flex-direction: column;   /* ⬅️ stack clock + date vertically */
+  flex-direction: column;   
   justify-content: center;
   align-items: center;
 }
 
-/* Responsive digital clock styling */
 .clock {
-  color: limegreen;             /* Green text */
-  font-size: 8vw;              /* Scales with screen width */
-  font-family: monospace;       /* Digital font look */
+  color: limegreen;            
+  font-size: 8vw;              
+  font-family: monospace;     
   text-align: center;
 }
 
